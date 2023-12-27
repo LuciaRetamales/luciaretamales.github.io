@@ -1,1 +1,5 @@
-luciaretamales.com
+$ dig www.luciaretamales.com +nostats +nocomments +nocmd
+> ;www.luciaretamales.com.                    IN      A
+> www.luciaretamales.com.            3592    IN      CNAME   luciaretamales.github.io.
+> luciaretamales.github.io      43192   IN      CNAME   GITHUB-PAGES-SERVER .
+> GITHUB-PAGES-SERVER .         22      IN      A       192.0.2.1
